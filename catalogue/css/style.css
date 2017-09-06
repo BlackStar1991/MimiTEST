@@ -1130,7 +1130,8 @@ svg {
 .description-slide {
   max-height: 100%;
   position: relative;
-  font-family: LCChalk, sans-serif;
+  font-family: LCChalk,
+ sans-serif;
   font-size: 24px;
   letter-spacing: .07em;
   line-height: 1.3; }
@@ -1596,8 +1597,16 @@ svg {
 
 .catalogue-item--kids .catalogue-item__back {
   background-image: url("../img/catalogue/sun.svg"), url("../img/catalogue/hand.svg"), url("../img/catalogue/girl.svg"), url("../img/catalogue/flw.svg"), url("../img/catalogue/fffssss.svg");
-  background-position: right top, left top, 88% bottom, 18.5% bottom, 43.5% 83.5%;
-  background-size: 34%, 18%, 34%, 21%, 8%; }
+  background-position: right top,
+ left top,
+ 88% bottom,
+ 18.5% bottom,
+ 43.5% 83.5%;
+  background-size: 34%,
+ 18%,
+ 34%,
+ 21%,
+ 8%; }
   .catalogue-item--kids .catalogue-item__back:before, .catalogue-item--kids .catalogue-item__back:after, .catalogue-item--kids .catalogue-item__back .catalogue-list:before {
     content: '';
     display: block;
@@ -1646,8 +1655,12 @@ svg {
 
 .catalogue-item.catalogue-item--office .catalogue-item__back {
   background-image: url("../img/catalogue/xoxo.svg"), url("../img/catalogue/coffee.svg"), url("../img/catalogue/enter.svg");
-  background-position: 68% 92%, 14% 72%, -15% 0;
-  background-size: 34%, 30%, 91.5%; }
+  background-position: 68% 92%,
+ 14% 72%,
+ -15% 0;
+  background-size: 34%,
+ 30%,
+ 91.5%; }
 
 .catalogue-item--parents .catalogue-list__item:not(:last-child) {
   margin-bottom: 30px; }
@@ -1658,8 +1671,28 @@ svg {
 
 .catalogue-item--parents .catalogue-item__back {
   background-image: url("../img/catalogue/moon.svg"), url("../img/catalogue/bulb.svg"), url("../img/catalogue/littlegirl.svg"), url("../img/catalogue/cat.svg"), url("../img/catalogue/books.svg"), url("../img/catalogue/star.svg"), url("../img/catalogue/star.svg"), url("../img/catalogue/star.svg"), url("../img/catalogue/star.svg"), url("../img/catalogue/star.svg"), url("../img/catalogue/star.svg");
-  background-position: 5% 2%, 10% 34%, 126% 104%, 28% 100%, -9.7% 105.5%,   47.3% 5.5%, 94.3% 5.5%, 74.2% 17.3%, 40.2% 23.4%, 87.2% 39.4%, 7% 38.2%;
-  background-size: 30%, 18.5%, 87.5%, 21.5%, 30.8%,   8.2%, 5.2%, 6.2%, 5.2%, 5.2%, 4.1%; }
+  background-position: 5% 2%,
+ 10% 34%,
+ 126% 104%,
+ 28% 100%,
+ -9.7% 105.5%,
+   47.3% 5.5%,
+ 94.3% 5.5%,
+ 74.2% 17.3%,
+ 40.2% 23.4%,
+ 87.2% 39.4%,
+ 7% 38.2%;
+  background-size: 30%,
+ 18.5%,
+ 87.5%,
+ 21.5%,
+ 30.8%,
+   8.2%,
+ 5.2%,
+ 6.2%,
+ 5.2%,
+ 5.2%,
+ 4.1%; }
 
 .catalogue-item__back {
   opacity: 0;
@@ -1785,8 +1818,12 @@ svg {
   margin-right: -15px;
   background-repeat: no-repeat;
   background-image: url("../img/goods-list/vife.svg"), url("../img/goods-list/five.svg"), url("../img/goods-list/umbrel.svg");
-  background-size: auto 126%, auto 110%, auto 104%;
-  background-position: 105.2% 36%, -2% 26%, 49.56% -161%; }
+  background-size: auto 126%,
+ auto 110%,
+ auto 104%;
+  background-position: 105.2% 36%,
+ -2% 26%,
+ 49.56% -161%; }
 
 .goods-page {
   width: 100%;
@@ -2007,10 +2044,12 @@ svg {
 
 .portfolio-thumb-slider {
   position: relative;
-  z-index: 3;
+  z-index: 10;
   width: 100px;
   margin-top: -11px;
-  padding-bottom: 140px; }
+  padding-bottom: 140px;
+  border: 1px solid black;
+}
 
 .portfolio-item-slider {
   z-index: 1;
