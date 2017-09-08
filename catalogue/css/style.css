@@ -2047,22 +2047,35 @@ svg {
 /* PRAVKA */
 
 
+.portfolio-thumb-slider__wrappen{
+  width: 100%;
+  position: relative;
+  /*overflow: hidden;*/
+}
 
 .portfolio-thumb-slider {
   position: relative;
-  z-index: 100;
+  z-index: 200;
   width: 100px;
   margin-top: -11px;
   padding-bottom: 140px;
-
-  border: 1px solid black;
-
   overflow: hidden;
 }
 
 
+.zoomLens{
+  z-index: 1000;
+}
+
 /* /////////////////////////////////////////////////////////////////////  */
 
+.portfolio-item-slider__wraper{
+  position: relative;
+  max-height: 620px;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid black;
+}
 
 
 .portfolio-item-slider {
@@ -2073,12 +2086,17 @@ svg {
   height: 100%;
   width: 100%; }
 
+
+
 .title-card {
   z-index: 4;
   position: relative;
   text-align: right;
   padding-left: 110px;
   padding-right: 25px; }
+
+
+
 
 .card-slide__galery {
   padding-left: 15px; }
@@ -2111,9 +2129,21 @@ svg {
   padding-bottom: 100%; }
 
 .card-slide__galery .portfolio-thumb-slider .slick-slider-item {
-  padding-left: 23px; /////////////////////////////////////////////////////////////////////////////*23px *////////
+  padding-left: 23px;
   padding-right: 16px;
   margin-bottom: 18px; }
+
+
+/*.slick-slider__wrapper{*/
+  /*position: relative;*/
+
+  /*margin-left: 100px; /////////////////////////////////*/
+
+  /*overflow: hidden;*/
+  /*width: 100%;*/
+/*}*/
+
+
 
 .slick-slider-item img {
   width: 100%;
@@ -2121,6 +2151,12 @@ svg {
 
   -o-object-fit: cover;
      object-fit: cover; }
+
+
+
+
+
+
 
 .card-slide__galery .portfolio-thumb-slider .slick-next {
   position: absolute;
@@ -2255,7 +2291,7 @@ svg {
   margin-left: -5px;
   position: relative; }
   .color-slider-wp .slick-next, .color-slider-wp .slick-prev {
-    z-index: 3;
+    z-index: 0;   /*////////////////////////////////////////////////////////////*/
     position: absolute;
     width: 28px;
     height: 28px;
