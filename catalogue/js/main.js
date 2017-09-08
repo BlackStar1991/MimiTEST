@@ -238,7 +238,7 @@ $(document).ready(function() {
             var lensStyle = "background-position: 0px 0px;width: " + String(options.lensSize) + "px;height: " + String(options.lensSize)
                 + "px;float: left;display: none;border-radius: " + String(options.lensSize / 2 + options.borderSize)
                 + "px;border: " + String(options.borderSize) + "px solid " + options.borderColor
-                + ";background-repeat: no-repeat;position: absolute; z-index: 100;";
+                + ";background-repeat: no-repeat;position: absolute; z-index:100;";
 
             return this.each(function () {
                 obj = $(this);
@@ -291,8 +291,12 @@ $(document).ready(function() {
     })(jQuery);
 
 
+    var zoomItem = "img/product-card/i1-big.jpg";
 
-	$(".product_image").imageLens({ imageSrc: "img/product-card/i1-big.png" });
+	 $(".slick-slider-item").imageLens({ imageSrc: zoomItem });
+
+
+
 
 });
 	
